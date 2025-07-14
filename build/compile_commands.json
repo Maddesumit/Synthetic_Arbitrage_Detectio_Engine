@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/workspaces/Synthetic_Arbitrage_Detectio_Engine/build",
+  "command": "/usr/bin/c++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/workspaces/Synthetic_Arbitrage_Detectio_Engine/include -I/workspaces/Synthetic_Arbitrage_Detectio_Engine/src -isystem /opt/conda/include  -Wall -Wextra -pedantic -O3 -march=native -O3 -DNDEBUG -O3 -DNDEBUG -std=c++17 -o CMakeFiles/SyntheticArbitrageEngine.dir/src/main.cpp.o -c /workspaces/Synthetic_Arbitrage_Detectio_Engine/src/main.cpp",
+  "file": "/workspaces/Synthetic_Arbitrage_Detectio_Engine/src/main.cpp",
+  "output": "CMakeFiles/SyntheticArbitrageEngine.dir/src/main.cpp.o"
+},
+{
+  "directory": "/workspaces/Synthetic_Arbitrage_Detectio_Engine/build",
+  "command": "/usr/bin/c++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/workspaces/Synthetic_Arbitrage_Detectio_Engine/include -I/workspaces/Synthetic_Arbitrage_Detectio_Engine/src -isystem /opt/conda/include  -Wall -Wextra -pedantic -O3 -march=native -O3 -DNDEBUG -O3 -DNDEBUG -std=c++17 -o CMakeFiles/SyntheticArbitrageEngine.dir/src/core/config_manager.cpp.o -c /workspaces/Synthetic_Arbitrage_Detectio_Engine/src/core/config_manager.cpp",
+  "file": "/workspaces/Synthetic_Arbitrage_Detectio_Engine/src/core/config_manager.cpp",
+  "output": "CMakeFiles/SyntheticArbitrageEngine.dir/src/core/config_manager.cpp.o"
+},
+{
+  "directory": "/workspaces/Synthetic_Arbitrage_Detectio_Engine/build",
+  "command": "/usr/bin/c++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/workspaces/Synthetic_Arbitrage_Detectio_Engine/include -I/workspaces/Synthetic_Arbitrage_Detectio_Engine/src -isystem /opt/conda/include  -Wall -Wextra -pedantic -O3 -march=native -O3 -DNDEBUG -O3 -DNDEBUG -std=c++17 -o CMakeFiles/SyntheticArbitrageEngine.dir/src/utils/logger.cpp.o -c /workspaces/Synthetic_Arbitrage_Detectio_Engine/src/utils/logger.cpp",
+  "file": "/workspaces/Synthetic_Arbitrage_Detectio_Engine/src/utils/logger.cpp",
+  "output": "CMakeFiles/SyntheticArbitrageEngine.dir/src/utils/logger.cpp.o"
+},
+{
+  "directory": "/workspaces/Synthetic_Arbitrage_Detectio_Engine/build",
+  "command": "/usr/bin/c++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/workspaces/Synthetic_Arbitrage_Detectio_Engine/include -I/workspaces/Synthetic_Arbitrage_Detectio_Engine/src -isystem /opt/conda/include  -Wall -Wextra -pedantic -O3 -march=native -O3 -DNDEBUG -O3 -DNDEBUG -std=c++17 -o CMakeFiles/SyntheticArbitrageEngine.dir/src/utils/performance_monitor.cpp.o -c /workspaces/Synthetic_Arbitrage_Detectio_Engine/src/utils/performance_monitor.cpp",
+  "file": "/workspaces/Synthetic_Arbitrage_Detectio_Engine/src/utils/performance_monitor.cpp",
+  "output": "CMakeFiles/SyntheticArbitrageEngine.dir/src/utils/performance_monitor.cpp.o"
+},
+{
+  "directory": "/workspaces/Synthetic_Arbitrage_Detectio_Engine/build/tests",
+  "command": "/usr/bin/c++ -DFMT_SHARED -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/workspaces/Synthetic_Arbitrage_Detectio_Engine/include -I/workspaces/Synthetic_Arbitrage_Detectio_Engine/src -isystem /opt/conda/include  -Wall -Wextra -pedantic -O3 -march=native -O3 -DNDEBUG -O3 -DNDEBUG -std=c++17 -o CMakeFiles/unit_tests.dir/test_core.cpp.o -c /workspaces/Synthetic_Arbitrage_Detectio_Engine/tests/test_core.cpp",
+  "file": "/workspaces/Synthetic_Arbitrage_Detectio_Engine/tests/test_core.cpp",
+  "output": "tests/CMakeFiles/unit_tests.dir/test_core.cpp.o"
+},
+{
+  "directory": "/workspaces/Synthetic_Arbitrage_Detectio_Engine/build/tests",
+  "command": "/usr/bin/c++ -DFMT_SHARED -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/workspaces/Synthetic_Arbitrage_Detectio_Engine/include -I/workspaces/Synthetic_Arbitrage_Detectio_Engine/src -isystem /opt/conda/include  -Wall -Wextra -pedantic -O3 -march=native -O3 -DNDEBUG -O3 -DNDEBUG -std=c++17 -o CMakeFiles/unit_tests.dir/__/src/core/config_manager.cpp.o -c /workspaces/Synthetic_Arbitrage_Detectio_Engine/src/core/config_manager.cpp",
+  "file": "/workspaces/Synthetic_Arbitrage_Detectio_Engine/src/core/config_manager.cpp",
+  "output": "tests/CMakeFiles/unit_tests.dir/__/src/core/config_manager.cpp.o"
+},
+{
+  "directory": "/workspaces/Synthetic_Arbitrage_Detectio_Engine/build/tests",
+  "command": "/usr/bin/c++ -DFMT_SHARED -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/workspaces/Synthetic_Arbitrage_Detectio_Engine/include -I/workspaces/Synthetic_Arbitrage_Detectio_Engine/src -isystem /opt/conda/include  -Wall -Wextra -pedantic -O3 -march=native -O3 -DNDEBUG -O3 -DNDEBUG -std=c++17 -o CMakeFiles/unit_tests.dir/__/src/utils/logger.cpp.o -c /workspaces/Synthetic_Arbitrage_Detectio_Engine/src/utils/logger.cpp",
+  "file": "/workspaces/Synthetic_Arbitrage_Detectio_Engine/src/utils/logger.cpp",
+  "output": "tests/CMakeFiles/unit_tests.dir/__/src/utils/logger.cpp.o"
+},
+{
+  "directory": "/workspaces/Synthetic_Arbitrage_Detectio_Engine/build/tests",
+  "command": "/usr/bin/c++ -DFMT_SHARED -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/workspaces/Synthetic_Arbitrage_Detectio_Engine/include -I/workspaces/Synthetic_Arbitrage_Detectio_Engine/src -isystem /opt/conda/include  -Wall -Wextra -pedantic -O3 -march=native -O3 -DNDEBUG -O3 -DNDEBUG -std=c++17 -o CMakeFiles/unit_tests.dir/__/src/utils/performance_monitor.cpp.o -c /workspaces/Synthetic_Arbitrage_Detectio_Engine/src/utils/performance_monitor.cpp",
+  "file": "/workspaces/Synthetic_Arbitrage_Detectio_Engine/src/utils/performance_monitor.cpp",
+  "output": "tests/CMakeFiles/unit_tests.dir/__/src/utils/performance_monitor.cpp.o"
+}
+]

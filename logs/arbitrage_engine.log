@@ -1,0 +1,54 @@
+[2025-07-14 19:04:12.171] [info] [11658] [:] Logger initialized successfully
+[2025-07-14 19:04:12.171] [info] [11658] [:] Log level: info
+[2025-07-14 19:04:12.171] [info] [11658] [:] Log file: logs/arbitrage_engine.log
+[2025-07-14 19:04:12.171] [info] [11658] [:] === Synthetic Arbitrage Detection Engine ===
+[2025-07-14 19:04:12.171] [info] [11658] [:] Version: 1.0.0
+[2025-07-14 19:04:12.171] [info] [11658] [:] Build: Jul 14 2025 19:03:09
+[2025-07-14 19:04:12.171] [info] [11658] [:] Performance monitor initialized with 1000ms interval
+[2025-07-14 19:04:12.171] [info] [11658] [:] System Information:
+[2025-07-14 19:04:12.171] [info] [11658] [:]   CPU Cores: 4
+[2025-07-14 19:04:12.171] [info] [11658] [:]   Page Size: 4096
+[2025-07-14 19:04:12.171] [info] [11658] [:]   PID: 11658
+[2025-07-14 19:04:12.171] [info] [11658] [:]   Working Directory: /workspaces/Synthetic_Arbitrage_Detectio_Engine
+[2025-07-14 19:04:12.171] [info] [11658] [:] Configuration:
+[2025-07-14 19:04:12.171] [info] [11658] [:]   Log Level: info
+[2025-07-14 19:04:12.171] [info] [11658] [:]   Thread Pool Size: 8
+[2025-07-14 19:04:12.171] [info] [11658] [:]   Memory Pool Size: 1024.00MB
+[2025-07-14 19:04:12.171] [info] [11658] [:]   Performance Monitoring: enabled
+[2025-07-14 19:04:12.171] [info] [11658] [:]   Enabled Exchanges: 3
+[2025-07-14 19:04:12.171] [info] [11658] [:]     - binance
+[2025-07-14 19:04:12.171] [info] [11658] [:]     - bybit
+[2025-07-14 19:04:12.171] [info] [11658] [:]     - okx
+[2025-07-14 19:04:12.171] [info] [11658] [:]   Enabled Instruments: 4
+[2025-07-14 19:04:12.171] [info] [11658] [:]     - BTC/USDT (SPOT, UNKNOWN)
+[2025-07-14 19:04:12.171] [info] [11658] [:]     - ETH/USDT (SPOT, UNKNOWN)
+[2025-07-14 19:04:12.171] [info] [11658] [:]     - BTC-PERPETUAL (UNKNOWN, UNKNOWN)
+[2025-07-14 19:04:12.171] [info] [11658] [:]     - ETH-PERPETUAL (UNKNOWN, UNKNOWN)
+[2025-07-14 19:04:12.171] [info] [11658] [:]   Min Profit Threshold: 0.1000%
+[2025-07-14 19:04:12.171] [info] [11658] [:]   Max Position Size: $10000.00
+[2025-07-14 19:04:12.171] [info] [11658] [:]   Max Latency: 10ms
+[2025-07-14 19:04:12.171] [info] [11658] [:] Engine initialization completed successfully
+[2025-07-14 19:04:12.171] [info] [11658] [:] Starting Synthetic Arbitrage Detection Engine...
+[2025-07-14 19:04:12.171] [info] [11658] [:] Performance monitor started
+[2025-07-14 19:04:12.171] [info] [11658] [:] Engine is running. Press Ctrl+C to stop.
+[2025-07-14 19:04:22.192] [info] [11658] [:] Simulated opportunity detected (counter: 100)
+[2025-07-14 19:04:32.201] [info] [11658] [:] Simulated opportunity detected (counter: 200)
+[2025-07-14 19:04:42.210] [info] [11658] [:] Simulated opportunity detected (counter: 300)
+[2025-07-14 19:04:52.218] [info] [11658] [:] Simulated opportunity detected (counter: 400)
+[2025-07-14 19:05:02.226] [info] [11658] [:] Simulated opportunity detected (counter: 500)
+[2025-07-14 19:05:12.235] [info] [11658] [:] Simulated opportunity detected (counter: 600)
+[2025-07-14 19:05:22.244] [info] [11658] [:] Simulated opportunity detected (counter: 700)
+[2025-07-14 19:05:32.254] [info] [11658] [:] Simulated opportunity detected (counter: 800)
+[2025-07-14 19:05:42.263] [info] [11658] [:] Simulated opportunity detected (counter: 900)
+[2025-07-14 19:05:47.824] [info] [11658] [:] Shutting down Synthetic Arbitrage Detection Engine...
+[2025-07-14 19:05:48.186] [info] [11658] [:] Performance monitor stopped
+[2025-07-14 19:05:48.186] [info] [11658] [:] Final Statistics:
+[2025-07-14 19:05:48.186] [info] [11658] [:]   Messages Processed: 95
+[2025-07-14 19:05:48.186] [info] [11658] [:]   Opportunities Detected: 9
+[2025-07-14 19:05:48.186] [info] [11658] [:]   Trades Executed: 0
+[2025-07-14 19:05:48.186] [info] [11658] [:]   Average Latency: 5.00ms
+[2025-07-14 19:05:48.186] [info] [11658] [:]   Max Latency: 5.00ms
+[2025-07-14 19:05:48.186] [info] [11658] [:]   Memory Usage: 9.73MB
+[2025-07-14 19:05:48.186] [info] [11658] [:]   CPU Usage: 0.00%
+[2025-07-14 19:05:48.186] [info] [11658] [:] Engine shutdown completed
+[2025-07-14 19:05:48.230] [info] [11658] [:] Engine main loop stopped

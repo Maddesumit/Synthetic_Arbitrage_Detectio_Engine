@@ -1,0 +1,118 @@
+{
+  "system": {
+    "log_level": "info",
+    "log_file": "logs/arbitrage_engine.log",
+    "performance_monitoring": true,
+    "memory_pool_size": 1073741824,
+    "thread_pool_size": 8
+  },
+  "exchanges": {
+    "okx": {
+      "enabled": true,
+      "websocket_url": "wss://ws.okx.com:8443/ws/v5/public",
+      "rest_url": "https://www.okx.com/api/v5",
+      "connection_timeout": 10000,
+      "reconnect_interval": 5000,
+      "max_reconnect_attempts": 10,
+      "rate_limit": {
+        "requests_per_second": 20,
+        "burst_size": 100
+      }
+    },
+    "binance": {
+      "enabled": true,
+      "websocket_url": "wss://stream.binance.com:443/ws/",
+      "futures_websocket_url": "wss://fstream.binance.com/ws/",
+      "rest_url": "https://api.binance.com/api/v3",
+      "futures_rest_url": "https://fapi.binance.com/fapi/v1",
+      "connection_timeout": 10000,
+      "reconnect_interval": 5000,
+      "max_reconnect_attempts": 10,
+      "rate_limit": {
+        "requests_per_second": 20,
+        "burst_size": 100
+      }
+    },
+    "bybit": {
+      "enabled": true,
+      "websocket_url": "wss://stream.bybit.com/v5/public/spot",
+      "derivatives_websocket_url": "wss://stream.bybit.com/v5/public/linear",
+      "rest_url": "https://api.bybit.com/v5",
+      "connection_timeout": 10000,
+      "reconnect_interval": 5000,
+      "max_reconnect_attempts": 10,
+      "rate_limit": {
+        "requests_per_second": 20,
+        "burst_size": 100
+      }
+    }
+  },
+  "instruments": {
+    "spot_pairs": [
+      {
+        "symbol": "BTC/USDT",
+        "base": "BTC",
+        "quote": "USDT",
+        "enabled": true,
+        "min_notional": 10.0,
+        "tick_size": 0.01
+      },
+      {
+        "symbol": "ETH/USDT",
+        "base": "ETH",
+        "quote": "USDT",
+        "enabled": true,
+        "min_notional": 10.0,
+        "tick_size": 0.01
+      }
+    ],
+    "derivatives": [
+      {
+        "symbol": "BTC-PERPETUAL",
+        "underlying": "BTC",
+        "quote": "USDT",
+        "type": "perpetual_swap",
+        "enabled": true,
+        "contract_size": 1.0,
+        "tick_size": 0.1
+      },
+      {
+        "symbol": "ETH-PERPETUAL",
+        "underlying": "ETH",
+        "quote": "USDT",
+        "type": "perpetual_swap",
+        "enabled": true,
+        "contract_size": 1.0,
+        "tick_size": 0.01
+      }
+    ]
+  },
+  "arbitrage": {
+    "detection": {
+      "min_profit_threshold": 0.001,
+      "max_latency_ms": 10,
+      "signal_strength_threshold": 0.7,
+      "confidence_threshold": 0.95
+    },
+    "risk_management": {
+      "max_position_size": 10000.0,
+      "max_portfolio_exposure": 100000.0,
+      "max_leverage": 10.0,
+      "stop_loss_percentage": 0.02,
+      "take_profit_percentage": 0.01
+    },
+    "synthetic_construction": {
+      "funding_rate_threshold": 0.0001,
+      "basis_spread_threshold": 0.001,
+      "correlation_threshold": 0.8,
+      "liquidity_threshold": 10000.0
+    }
+  },
+  "performance": {
+    "target_latency_ms": 5,
+    "max_memory_usage_mb": 2048,
+    "monitoring_interval_ms": 1000,
+    "metrics_collection": true,
+    "profiling_enabled": false
+  }
+}

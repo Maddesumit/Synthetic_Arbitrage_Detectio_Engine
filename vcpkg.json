@@ -1,0 +1,29 @@
+{
+  "name": "synthetic-arbitrage-engine",
+  "version": "1.0.0",
+  "description": "High-performance synthetic arbitrage detection engine",
+  "dependencies": [
+    "nlohmann-json",
+    "spdlog",
+    "websocketpp",
+    "boost-beast",
+    "boost-asio",
+    "boost-system",
+    "boost-thread",
+    "curl",
+    "openssl",
+    "gtest",
+    "benchmark"
+  ],
+  "builtin-baseline": "2023.11.20",
+  "overrides": [
+    {
+      "name": "nlohmann-json",
+      "version": "3.11.3"
+    },
+    {
+      "name": "spdlog",
+      "version": "1.12.0"
+    }
+  ]
+}
